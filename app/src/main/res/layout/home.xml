@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="72dp"
+        android:background="@android:color/darker_gray"
+        android:fontFamily="monospace"
+
+        android:paddingTop="20dp"
+        android:text="SHIELD ARROW"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/im2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/im4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="32dp"
+
+        android:background="@color/colorAccent"
+        android:onClick="touch"
+        android:tag="1"
+        app:layout_constraintBottom_toBottomOf="@+id/im5"
+        app:layout_constraintEnd_toStartOf="@+id/im5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/im5" />
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="33dp"
+        android:background="@color/colorAccent"
+        android:onClick="touch"
+        android:tag="2"
+        app:layout_constraintBottom_toTopOf="@+id/im5"
+        app:layout_constraintEnd_toStartOf="@+id/im3"
+        app:layout_constraintStart_toEndOf="@+id/im1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="24dp"
+
+
+        android:layout_marginBottom="35dp"
+        android:background="@color/colorAccent"
+        android:onClick="touch"
+        android:tag="3"
+        app:layout_constraintBottom_toTopOf="@+id/im6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/im2"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="32dp"
+
+        android:background="@color/colorAccent"
+        android:onClick="touch"
+        android:tag="4"
+        app:layout_constraintBottom_toBottomOf="@+id/im2"
+        app:layout_constraintEnd_toStartOf="@+id/im2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/im2" />
+
+    <ImageView
+        android:id="@+id/im5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="29dp"
+        android:background="@color/colorAccent"
+        android:onClick="touch"
+        android:tag="5"
+        app:layout_constraintBottom_toTopOf="@+id/im8"
+        app:layout_constraintEnd_toStartOf="@+id/im6"
+        app:layout_constraintStart_toEndOf="@+id/im4"
+        app:layout_constraintTop_toBottomOf="@+id/im2" />
+
+    <ImageView
+        android:id="@+id/im6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+
+
+        android:onClick="touch"
+        android:tag="6"
+        app:layout_constraintBottom_toTopOf="@+id/im9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/im5"
+        app:layout_constraintTop_toBottomOf="@+id/im3" />
+
+    <ImageView
+        android:id="@+id/im7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/colorAccent"
+
+        android:onClick="touch"
+        android:tag="7"
+        app:layout_constraintBottom_toBottomOf="@+id/im8"
+        app:layout_constraintEnd_toStartOf="@+id/im8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/im8" />
+
+    <ImageView
+        android:id="@+id/im8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="207dp"
+        android:background="@color/colorAccent"
+        android:onClick="touch"
+        android:tag="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/im9"
+        app:layout_constraintStart_toEndOf="@+id/im7"
+        app:layout_constraintTop_toBottomOf="@+id/im5" />
+
+    <ImageView
+        android:id="@+id/im9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="207dp"
+        android:background="@color/colorAccent"
+
+
+        android:onClick="touch"
+        android:tag="9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/im8"
+        app:layout_constraintTop_toBottomOf="@+id/im6" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im8" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/shPoint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/shield" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/arPoint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow" />
+
+    <EditText
+        android:id="@+id/arPoint"
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/shPoint"
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
